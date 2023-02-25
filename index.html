@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Learning bootstrap v5 with sass</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- ////////////////////////////////////////////////////////////////////////////////////////
+                               START SECTION 1 - THE NAVBAR SECTION  
+/////////////////////////////////////////////////////////////////////////////////////////////-->
+<nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+      <h1>Bezio</h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////
+                            START SECTION 2 - THE INTRO SECTION  
+/////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<section id="home" class="intro-section">
+  <div class="container">
+    <div class="row align-items-center text-white">
+      <!-- START THE CONTENT FOR THE INTRO  -->
+        
+      <div class="col-md-6 intros text-start">
+        <h1 class="display-2">
+          <span class="display-2--intro">Hey!,Hello World</span>
+          <span class="typed-words"></span>
+          <br>
+
+          <h2><span class="display-2--intro">My name is</span></h2>
+          <h2><span class="typed-words_1"></span>
+
+        </h1>
+      </div>
+      
+      <!-- START THE CONTENT FOR THE VIDEO -->
+      <div class="col-md-6 intros text-end">
+        <div class="video-box">
+          <img src="images/arts/intro-section-illustration.png" alt="video illutration" class="img-fluid">  
+        </div>
+      </div>
+    </div>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,133.3C672,139,768,213,864,202.7C960,192,1056,96,1152,74.7C1248,53,1344,107,1392,133.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+</section>
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////
+                         START SECTION 3 - About
+///////////////////////////////////////////////////////////////////////////////////////////////////-->
+<section id="services" class="services">
+  <div class="container">
+    <div class="row text-center">
+      <h1 class="display-3 fw-bold">About</h1>
+      <div class="heading-line mb-1"></div>
+    </div>
+    <!-- START THE DESCRIPTION CONTENT  -->
+    <div class="row pt-2 pb-2 mt-0 mb-3">
+      <div class="col-md-6 border-right">
+        <div class="bg-white p-3">
+          <h2 class="fw-light text-capitalize text-center">
+            Curently studying Computer Scince at American college of tecnology 
+          </h2>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="bg-white p-4 text-start">
+          <p class="fw-bold">
+            I wanted to become a programmer since I was a kid after reading the book 
+            called python for kids , after that I have taken courses on freecodecamp,w3school 
+            and YouTube. When I was a freshman student in American college of technology
+             I developed an android app called walkaround for my brother that works in 
+             Ethiopian airlines as a ground technician. Apart from that i have done so 
+             many projects like developing a website, creating an app and writing 
+             different lines of code to solve different types of problems as part of my 
+             assignments as a student. currently, i am a 4th year outstanding computer 
+             science student with excellent programming and soft skills 
+          </p>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- START THE DESCRIPTION CONTENT  -->
+    <div class="row pt-2 pb-2 mt-0 mb-3 mt-5">
+      <div class="col-md-6 d-flex justify-content-center ">
+        <div class="bg-white p-4 text-start">
+          <p class="fw-bolder">
+              Elshadai Holy Savior <br>
+                Sep 2007 - Select Month Select Year <br>
+              Elshadai Holy Savior <br>
+                Sep 2012 <br>
+              American College of Technology <br>
+                Sep 2019 <br>
+                Addis Ababa <br>
+          </p>  
+        </div>
+      </div>
+      <div class="col-md-6 border-right">
+        <div class="row text-center">
+          <h1 class="display-3 fw-bold"> <div class="icon d-block fas fa-school"></div>Education</h1>
+          <div class="heading-line mb-1"></div>
+        </div>
+      </div> 
+    </div>
+  </div>
+
+
+
+  <!-- START THE CONTENT FOR THE SERVICES  -->
+  <div class="container mt-5">
+    <!-- skills -->
+    <div class="row text-center"> 
+      <h1 class="display-3 fw-bold"><div class="icon d-block fas fa-code"></div>Skills</h1>
+      <div class="heading-line mb-1"></div>
+    </div>
+
+
+
+
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services__content">
+          <div class="icon d-block fas fa-database d-flex justify-content-center"></div>
+          <h2 class="display-3--title mt-1 d-flex justify-content-center">Languages </h2>
+        </div>
+        <div class="row">
+          <div class="col s4 m2">
+            <img alt="" src="images/python-logo-1-300x300.jpg" width="70" height="70"class="responsive-img" />Python
+          </div>
+          <div class="col s4 m2">
+            <img alt="" src="images/html5.png" width="70" height="70" class="responsive-img" />HTML5
+          </div>
+          <div class="col s4 m2">
+            <img alt="" src="images/css3.png" width="70" height="70" class="responsive-img" />CSS3
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+        <div class="services__pic">
+          <img src="images/services/service-1.png" alt="marketing illustration" class="img-fluid">
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- START THE WEB DEVELOPMENT CONTENT  -->
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
+        <div class="services__pic">
+          <img src="images/services/service-2.png" alt="web development illustration" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services__content">
+          <div class="icon d-block fas fa-code d-flex justify-content-center"></div>
+          <h3 class="display-3--title mt-1 d-flex justify-content-center">Frameworks</h3>
+          <div class="row">
+            <div class="col s4 m2 d-flex justify-content-center">
+              <img alt="" src="images/django-logo.webp" idth="70" height="70"  class="responsive-img" />
+            </div>
+            <div class="col s4 m2 d-flex justify-content-center">
+              <img alt="" src="images/flutter.png" width="70" height="70" class="responsive-img" />Flutter
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- START THE CLOUD HOSTING CONTENT  -->
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services__content">
+          <div class="icon d-block fas fa-cloud-upload-alt d-flex justify-content-center"></div>
+          <h3 class="display-3--title mt-1 d-flex justify-content-center">Data Base</h3>
+        
+            
+          <div class="row mt-3">
+            <div class="col s4 m2 d-flex justify-content-center">
+              <img alt="" src="images/mysql-logo-1.png" width="70" height="70" class="responsive-img" />
+            </div>
+            <div class="col s4 m2">
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+        <div class="services__pic">
+          <img src="images/services/service-3.png" alt="cloud hosting illustration" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////
+                               START SECTION 5 - Portfolio 
+/////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<section id="testimonials" class="testimonials">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+  <div class="container">
+    <div class="row text-center text-white">
+      <h1 class="display-3 fw-bold">Projects</h1>
+      <hr style="width: 100px; height: 3px; " class="mx-auto">
+      <p class="lead pt-1">This are the projects that we worked on </p>
+    </div>
+
+    
+    <div class="row align-items-center">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          
+          <div class="carousel-item active">
+
+            <div class="testimonials__card">
+              <h1> Grading managemetns system</h1>
+                <ul>
+                  <li><b>Tools:</b> HTML, CSS, Bootstrap, Flask, SQLAlchemy, Postgresql, Python</li>
+                  <li>Users can view posts and contact the admin via Contact Page.</li>
+                  <li>Admin can Aprove, Delete, Update posts.</li>
+                </ul>
+
+            </div>
+
+            <div>
+              <div class="row">
+                <div class="col col-lg-6 d-flex justify-content-center">
+                  <img alt="" src="images/Signup.png" width="500" height="300"  class="responsive-img" />
+                </div>
+                <div class="col col-lg-6 d-flex justify-content-center">
+                  <img alt="" src="images/home.png" width="500" height="300"  class="responsive-img" />
+                </div>
+              </div>
+              
+            </div>
+            
+            <div class="testimonials__name">
+              <h3>GMS</h3>
+              <p class="fw-light">Meron Kifle & Bisrat Teklehimanot</p>
+            </div>
+          </div> 
+          
+          
+          <div class="carousel-item">
+
+            <div class="testimonials__card">
+              <h1> World cup </h1>
+                <ul>
+                  <li><b>Tools:</b> HTML, CSS, Bootstrap, High Chart</li>
+                  
+                </ul>
+
+            </div>
+
+            <div class="">
+              <div class="row">
+                <div class="col col-lg-12 d-flex justify-content-center">
+                  <img alt="" src="images/Worldcup.png" width="500" height="300"  class="responsive-img" />
+                </div>
+              </div>
+            </div>
+
+
+            <div class="testimonials__name">
+              <h3>GMS</h3>
+              <p class="fw-light">Meron Kifle & Bisrat Teklehimanot</p>
+              <a href="https://beziobi.github.io/world-cup/" class="btn btn-info">Go to the site</a>
+            </div>
+          </div>   
+          
+
+          <div class="carousel-item">
+
+            <div class="testimonials__card">
+              <h1> Ekub </h1>
+                <ul>
+                  <li><b>Tools:</b> HTML, CSS, Bootstrap, High Chart, Python</li>
+                  
+                </ul>
+
+            </div>
+
+            <div class="">
+              <div class="row">
+                <div class="col col-lg-12 d-flex justify-content-center">
+                  <img alt="" src="images/ekub.png" width="500" height="300"  class="responsive-img" />
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonials__name">
+              <h3>Act Clone</h3>
+              <p class="fw-light">Meron Kifle & Bisrat Teklehimanot</p>
+              <a href="https://beziobi.github.io/ekub/" class="btn btn-info">Go to the site</a>
+            </div>
+          </div> 
+
+
+          <!-- CAROUSEL ITEM 1 -->
+          <div class="carousel-item">
+
+            <div class="testimonials__card">
+              <h1> Act Clone </h1>
+                <ul>
+                  <li><b>Tools:</b> HTML, CSS</li>
+                  
+                </ul>
+
+            </div>
+            <!-- client picture  -->
+            <div class="">
+              <div class="row">
+                <div class="col col-lg-12 d-flex justify-content-center">
+                  <img alt="" src="images/Act.png" width="500" height="300"  class="responsive-img" />
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonials__name">
+              <h3>GMS</h3>
+              <p class="fw-light">Meron Kifle & Bisrat Teklehimanot</p>
+              <a href=" https://beziobi.github.io/act-website-clone/" class="btn btn-info">Go to the site</a>
+            </div>
+          </div>  
+          
+          
+          <!-- CAROUSEL Ekub -->
+          <div class="carousel-item">
+            <div class="testimonials__card">
+              <h1> Menu </h1>
+                <ul>
+                  <li><b>Tools:</b> HTML, CSS</li>
+                  
+                </ul>
+
+            </div>
+
+            <div class="">
+              <div class="row">
+                <div class="col col-lg-12 d-flex justify-content-center">
+                  <img alt="" src="images/menu.png" width="500" height="300"  class="responsive-img" />
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonials__name">
+              <h3>Menu</h3>
+              <p class="fw-light">Meron Kifle & Bisrat Teklehimanot</p>
+              <a href=" https://beziobi.github.io/Menu/" class="btn btn-info">Go to the site</a>
+            </div>
+          </div> 
+
+
+        </div>
+        <div class="text-center">
+          <button class="btn btn-outline-light fas fa-long-arrow-alt-left" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        </button>
+        <button class="btn btn-outline-light fas fa-long-arrow-alt-right" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+</section>
+
+
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////
+              START SECTION 8 - GET STARTED  
+/////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<section id="contact" class="get-started">
+  <div class="container">
+    <div class="row text-center">
+      <h1 class="display-3 fw-bold text-capitalize">Hire me</h1>
+      <div class="heading-line"></div>
+    </div>
+
+    <!-- START THE CTA CONTENT  -->
+    <div class="row text-white">
+      <div class="col-12 col-lg-6 gradient shadow p-3">
+        <div class="cta-info w-100">
+          <h4 class="display-4 fw-bold">Please use the info's</h4>
+          <h3 class="display-3--brief">to contact me </h3>
+          <ul class="cta-info__list">
+            <li>Thank you for visiting my site.</li>
+            <li>we'll discuss it together.</li>
+          </ul>
+          <div class="mt-5">
+            <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+                class="brand-logo grey-blue-text">
+                <img src="images/Profile.jpg" class="circle img-responsive profile-pic" alt="avatar">
+            </a>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 bg-white shadow p-3">
+        <div class="form w-100 pb-2">
+          <h4 class="display-3--title mb-5">Send me a mail</h4>
+          <form action="https://formspree.io/f/mrgvqnlr" method="POST" class="row">
+            <div class="col-lg-6 col-md mb-3">
+              <input type="text" placeholder="First Name" id="inputFirstName" class="shadow form-control form-control-lg">
+            </div>
+            <div class="col-lg-6 col-md mb-3">
+              <input type="text" placeholder="Last Name" id="inputLastName" class="shadow form-control form-control-lg">
+            </div>
+            <div class="col-lg-12 mb-3">
+              <input type="email" placeholder="email address" id="inputEmail" class="shadow form-control form-control-lg">
+            </div>
+            <div class="col-lg-12 mb-3">
+              <textarea name="message" placeholder="message" id="message" rows="8" class="shadow form-control form-control-lg"></textarea>
+            </div>
+            <div class="text-center d-grid mt-1">
+              <button type="submit" class="btn btn-primary rounded-pill pt-3 pb-3">
+                submit
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////
+                           START SECTION 9 - THE FOOTER  
+///////////////////////////////////////////////////////////////////////////////////////////////-->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <!-- CONTENT FOR THE MOBILE NUMBER  -->
+      <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+        <div class="contact-box__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+            <path d="M15 7a2 2 0 0 1 2 2" />
+            <path d="M15 3a6 6 0 0 1 6 6" />
+          </svg>
+        </div>
+        <div class="contact-box__info">
+          <a href="#" class="contact-box__info--title">+251-9-11-72-04-89</a>
+          <p class="contact-box__info--subtitle">Any time</p>
+        </div>
+      </div>  
+      <!-- CONTENT FOR EMAIL  -->
+      <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+        <div class="contact-box__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <polyline points="3 9 12 15 21 9 12 3 3 9" />
+            <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+            <line x1="3" y1="19" x2="9" y2="13" />
+            <line x1="15" y1="13" x2="21" y2="19" />
+          </svg>
+        </div>
+        <div class="contact-box__info">
+          <a href="#" class="contact-box__info--title">bisrattfstudy@gmail.com</a>
+          <p class="contact-box__info--subtitle">Gmail</p>
+        </div>
+      </div>
+      <!-- CONTENT FOR LOCATION  -->
+      <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+        <div class="contact-box__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <line x1="18" y1="6" x2="18" y2="6.01" />
+            <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+            <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+            <line x1="9" y1="4" x2="9" y2="17" />
+            <line x1="15" y1="15" x2="15" y2="20" />
+          </svg>
+        </div>
+        <div class="contact-box__info">
+          <a href="#" class="contact-box__info--title">A.A, Ethiopia</a>
+          <p class="contact-box__info--subtitle">Gulele</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- START THE SOCIAL MEDIA CONTENT  -->
+  <div class="footer-sm" style="background-color: #212121;">
+    <div class="container">
+      <div class="row py-4 text-center text-white">
+        <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+          connect me n social media
+        </div>
+        <div class="col-lg-7 col-md-6">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+</footer>
+
+<!-- BACK TO TOP BUTTON  -->
+<a href="#" class="shadow btn-primary rounded-circle back-to-top">
+  <i class="fas fa-chevron-up"></i>
+</a>
+
+
+
+   
+    <script src="assets/vendors/js/glightbox.min.js"></script>
+
+    <script type="text/javascript">
+      const lightbox = GLightbox({
+        'touchNavigation': true,
+        'href': 'https://www.youtube.com/watch?v=J9lS14nM1xg',
+        'type': 'video',
+        'source': 'youtube', //vimeo, youtube or local
+        'width': 900,
+        'autoPlayVideos': 'true',
+});
+    </script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/typed.js"></script>
+    <script>
+      var typed = new Typed('.typed-words', {
+        strings: ["WELLCOME",],
+        typeSpeed: 80,
+        backSpeed: 80,
+        backDelay: 4000,
+        startDelay: 1000,
+        loop: true,
+        showCursor: true
+      });
+    </script>
+    <script>
+      var typed = new Typed('.typed-words_1', {
+        strings: ["Bisrat Teklehimanot"],
+        typeSpeed: 80,
+        backSpeed: 80,
+        backDelay: 4000,
+        startDelay: 1000,
+        loop: true,
+        showCursor: true
+      });
+    </script>
+</body>
+</html>
